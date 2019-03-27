@@ -1,0 +1,61 @@
+parser: babel-eslint
+plugins:
+  - react
+  - import
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+  - plugin:import/warnings
+  - plugin:import/errors
+  - prettier
+  - prettier/react
+settings:
+  react:
+    version: detect
+parserOptions:
+  ecmaFeatures: { jsx: true }
+env:
+  es6: true
+  node: true
+  browser: true
+rules:
+  # General Rules
+  strict: 0
+  eqeqeq: 2
+  camelcase: 0
+  no-debugger: 2
+  prefer-const: 2
+  no-extra-semi: 2
+  semi: [2, always]
+  keyword-spacing: 2
+  space-infix-ops: 2
+  no-unused-vars: 0
+  no-nested-ternary: 0
+  curly: [2, multi-line]
+  space-before-blocks: 2
+  no-unneeded-ternary: 2
+  comma-dangle: [2, never]
+  arrow-parens: [2, always]
+  no-irregular-whitespace: 2
+  space-in-parens: [2, never]
+  no-mixed-spaces-and-tabs: 2
+  indent: [2, 2, { SwitchCase: 1 }]
+  key-spacing: [2, { mode: strict }]
+  multiline-ternary: [2, always-multiline]
+  no-else-return: [2, { allowElseIf: true }]
+  semi-spacing: [2, { before: false, after: true }]
+  comma-spacing: [2, { before: false, after: true }]
+  space-before-function-paren:
+    [2, { anonymous: never, named: never, asyncArrow: always }]
+
+  # React Plugin Rules
+  react/sort-comp: 0
+  react/prop-types: 0
+  react/display-name: 0
+  react/no-unused-state: 2
+  react/style-prop-object: 0
+  react/jsx-wrap-multilines: 2
+  react/jsx-filename-extension: 0
+  import/prefer-default-export: 0
+  react/jsx-curly-brace-presence: 0
+  react/destructuring-assignment: 0
