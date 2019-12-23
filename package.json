@@ -54,7 +54,7 @@
     "@emotion/babel-preset-css-prop": "^10.0.22",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
-    "babel-plugin-emotion": "^10.0.22",
+    "babel-plugin-emotion": "^10.0.27",
     "compression-webpack-plugin": "^2.0.0",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^2.1.1",
