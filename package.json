@@ -59,7 +59,7 @@
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
